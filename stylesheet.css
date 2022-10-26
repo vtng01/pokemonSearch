@@ -1,0 +1,50 @@
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+fieldset {
+  width: 400px;
+  height: auto;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.genericSpacing {
+  padding: 1em;
+}
+
+.displayPokemon {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.cardLeft {
+  height: 161.5px;
+  width: 91.09px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pokemonName {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+}
+
+img {
+  max-height: 100%;
+}
